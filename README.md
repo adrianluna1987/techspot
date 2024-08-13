@@ -24,9 +24,8 @@ Solución: Configuramos un servidor Apache Tomcat para probar la generación de 
 
  Instalación
 
-1. Clona el repositorio: `git clone https://github.com/tu-usuario/techspot.git`
-2. Navega al directorio del proyecto: `cd techspot`
-3. Abre `index.html` en tu navegador.
+ `git clone https://github.com/adrianluna1987/techspot.git`
+
 
  Características
 
