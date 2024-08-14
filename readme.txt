@@ -1,4 +1,3 @@
-"# TechSpot" 
 Proyecto TechSpot
 
 Descripción del Proyecto
@@ -35,5 +34,4 @@ Solución: Configuramos un servidor Apache Tomcat para probar la generación de 
 - Diseño adaptativo y estilizado con Bootstrap.
 - Formulario de registro e inicio de sesión con validación.
 - Carrito de compras interactivo.
-
 

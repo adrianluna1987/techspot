@@ -4,42 +4,93 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechSpot - Inicio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <!-- Incluye Bootstrap CSS y el archivo de estilos -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#">TechSpot</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="catalog.html">Catálogo</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="cart.html">Carrito</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="login.html">Iniciar Sesión</a>
-                    </li>
-                </ul>
+            <div class="container">
+                <a class="navbar-brand" href="#">TechSpot</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="catalog.html">Catálogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">Carrito</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="login.html">Iniciar Sesión</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
-    <main class="container">
+    <main class="container my-5">
         <!-- Contenido principal aquí -->
+        <div class="row">
+            <div class="col-md-8">
+                <h1>Bienvenido a TechSpot</h1>
+                <p>Explora nuestra amplia gama de productos electrónicos, desde dispositivos móviles hasta equipos de entretenimiento doméstico.</p>
+            </div>
+            <div class="col-md-4">
+                <img src="img/electronics.jpg" class="img-fluid" alt="Productos electrónicos">
+            </div>
+        </div>
     </main>
-    <footer class="text-center">
+    <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 TechSpot. Todos los derechos reservados.</p>
     </footer>
+    <!-- Incluye Bootstrap JS y jQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="img/slide1.jpg" class="d-block w-100" alt="Producto 1">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Producto 1</h5>
+                <p>Telefonia movil a tu disposicion</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/slide2.jpg" class="d-block w-100" alt="Producto 2">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Producto 2</h5>
+                <p>Computadoras a pedido</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="img/slide3.jpg" class="d-block w-100" alt="Producto 3">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Producto 3</h5>
+                <p>Estacion de juego ps5</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+    </button>
+</div>
+
 </html>
- 
